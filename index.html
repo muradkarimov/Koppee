@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index.css">
+  <!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars/">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!-- Navbar -->
+  <div class="container-fluid main_part" id="intro">
+    <div id="myCarousel" class="carousel  slide bgslider" data-bs-ride="carousel">
+   
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active d-flex flex-column align-items-center justify-content-center">
+          <img src="img/carousel-1.jpg" class="bd-placeholder-img" width="100%" height="100%"
+            xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+            focusable="false">
+          <rect width="100%" height="100%" fill="#777" />
+
+          <div class="container">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+              <h2 class="service">We Have Been Serving</h2>
+              <h1 class="coffee">COFFEE</h1>
+              <h2 class="time">*SINCE 1950*</h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item d-flex flex-column align-items-center justify-content-center">
+          <img src="img/carousel-2.jpg" class="bd-placeholder-img" width="100%" height="100%"
+            xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+            focusable="false">
+          <rect width="100%" height="100%" fill="#777" />
+
+          <div class="container center">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+              <h2 class="service">We Have Been Serving</h2>
+              <h1 class="coffee">COFFEE</h1>
+              <h2 class="time">*SINCE 1950*</h2>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    
+    <div class="row m-0 p-0 top-header" id="home">
+      <nav class="navbar navbar-expand-md navbar-dark  d-flex" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand koppee" href="#">KOPPEE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse header-right" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active home" aria-current="page " href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item reservation" href="#reservation">Reservation</a></li>
+                  <li><a class="dropdown-item reservation" href="#testimonial">Testimonial</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Carousel -->
+
+   
+  </div>
+
+
+
+  <!-- About -->
+
+  <!-- <div class="container-fluid"> -->
+  <!-- <img src="img/overlay-bottom.png" alt="" style="margin-top: -70px;width:100%; "> -->
+  <div class="container-fluid bg-rel">
+    <div class="bg-image1"></div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class=" bg-rel">
+        <div class="vertical_line">
+        </div>
+
+      </div>
+      <div>
+        <h4 class="color text-center fw-bold" style="letter-spacing: 5px; padding-top: 30px;">ABOUT US</h4>
+        <h1 class="serving fw-bold text-center">Serving Since 1950</h1>
+      </div>
+      <div class="row pb-5">
+        <div class="col-lg-4 py-10 py-lg-5">
+          <h1 class="mb-3" style="font-weight: bold; font-size:2.5rem;">Our Story</h1>
+          <h5 class="mb-3" style="font-weight: 600;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+            libero? Optio eligendi laudantium non error!</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat, repudiandae exercitationem
+            consequatur iure cupiditate nesciunt rerum atque delectus dignissimos! Vero accusamus excepturi quod optio!
+          </p>
+          <button class="btn btn-secondary pt-2 pe-4 ps-4 pb-2">Learn More</button>
+        </div>
+        <div class="col-lg-4 py-0 py-lg-3  " style="min-height: 500px;">
+
+          <img src="img/about.png" alt="" class=" w-100 h-100">
+
+        </div>
+        <div class="col-lg-4 py-0 py-lg-5">
+          <h1 style="font-weight: bold; font-size:2.5rem;">Our Vision</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio accusantium adipisci maxime molestias
+            consequuntur, reiciendis consectetur, libero earum assumenda cumque voluptatem rerum aliquam laudantium
+            dolor ex dolorem quibusdam fuga dignissimos!</p>
+          <h5 style="font-weight: 700;"><i class="fa fa-check color mr-3"
+              style="font-weight: bold; margin-right: 0.5rem;"></i>
+            Lorem ipsum dolor sit amet.</h5>
+          <h5 style="font-weight: 700;"><i class="fa fa-check color mr-3"
+              style="font-weight: bold; margin-right: 0.5rem;"></i>
+            Lorem ipsum dolor sit amet.</h5>
+          <h5 style="font-weight: 700;"><i class="fa fa-check color mr-3"
+              style="font-weight: bold; margin-right: 0.5rem;"></i>
+            Lorem ipsum dolor sit amet.</h5>
+          <button class="btn btn-success fw-bold pt-2 pe-4 ps-4 pb-2 mt-1">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- </div> -->
+
+
+
+
+
+  <!-- Service -->
+
+
+
+  <div id="service">
+    <div class="container-fluid bg-rel pt-3">
+      <div class="vertical_line pt-3"> </div>
+    </div>
+    <div class="container pt-5">
+      <div>
+        <h4 class="color text-justify fw-bold text-center" style="letter-spacing: 5px;">OUR SERVICES</h4>
+        <h1 class="serving fw-bold text-center">Fresh & Organic Beans</h1>
+      </div>
+      <div class="row mt-5 ">
+        <div class="col-lg-6 mb-5 ">
+          <div class="row align-items-center">
+            <div class="col-sm-5">
+              <img src="img/service-1.jpg" alt="" class="img-fluid mb-3">
+            </div>
+            <div class="col-sm-7 mt-4">
+              <h4 class="fw-bold">
+                <i class="fa fa-truck service-icon"></i>
+                Fastest Food Delivery
+              </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eos, nulla cupiditate iste voluptatem
+                vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 ">
+          <div class="row align-items-center">
+            <div class="col-sm-5">
+              <img src="img/service-2.jpg" alt="" class="img-fluid mb-3">
+            </div>
+            <div class="col-sm-7 mt-4">
+              <h4 class="fw-bold">
+                <i class="fa fa-coffee service-icon"></i>
+                Fresh Coffee Beans
+              </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eos, nulla cupiditate iste voluptatem
+                vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 ">
+          <div class="row align-items-center">
+            <div class="col-sm-5">
+              <img src="img/service-3.jpg" alt="" class="img-fluid mb-3">
+            </div>
+            <div class="col-sm-7 mt-4">
+              <h4 class="fw-bold">
+                <i class="fa fa-award service-icon"></i>
+                Best Quality Coffee
+              </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eos, nulla cupiditate iste voluptatem
+                vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 ">
+          <div class="row align-items-center">
+            <div class="col-sm-5">
+              <img src="img/service-4.jpg" alt="" class="img-fluid mb-3">
+            </div>
+            <div class="col-sm-7 mt-4">
+              <h4 class="fw-bold">
+                <i class="fa fa-table service-icon"></i>
+                Onlne Table Booking
+              </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eos, nulla cupiditate iste voluptatem
+                vitae.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Offer -->
+
+
+  <div class="container-fluid offer bg-image4">
+
+    <div class="container-fluid bg-rel">
+      <div class="bg-image"></div>
+    </div>
+
+    <div class="empty"></div>
+
+    <div class=" d-flex flex-column justify-content-center align-items-center ">
+      <h1 class="text-success1 fs1 fw-bold mb-3 mt-5 index">50% OFF</h1>
+      <h3 class="text-white mb-4 index">Sunday Special Offer</h3>
+      <h4 class="text-light mb-4 index">Only for Sunday from 2022 to 2023</h4>
+      <div>
+        <!-- <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Your Email</label>
+          <input class="btn btn-success1 " type="submit" value="Submit"> -->
+        <div class="input-group mb-3">
+          <input type="email" class="form-control p-3" placeholder="Your Email" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-success1" type="button">Button</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="container-fluid bg-rel">
+    <div class="bg-image1"></div>
+  </div>
+  </div>
+
+
+  <!-- Menu -->
+
+  <div id="menu">
+    <div class="container-fluid bg-rel pt-3 mb-5">
+      <div class="vertical_line pt-3"> </div>
+    </div>
+    <h4 class="color text-justify fw-bold text-center" style="letter-spacing: 5px;">MENU & PRICING</h4>
+    <h1 class="serving fw-bold text-center">Competitive Pricing</h1>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-6">
+          <h1 class="ms-3 mt-5 mb-5 fw-bold">Hot Coffee</h1>
+          <div class="row align-items-center">
+            <div class="col-3 position-relative">
+              <img src="img/menu-1.jpg" alt="" class="rounded-circle hot_coffee mb-5">
+              <h5 class="on_img">$5</h5>
+            </div>
+            <div class="col-9 mb-4">
+              <h4 class="fw-bold ">
+                Black Coffee
+              </h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae.</p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-3 position-relative">
+              <img src="img/menu-2.jpg" alt="" class="rounded-circle hot_coffee mb-5">
+              <h5 class="on_img">$7</h5>
+            </div>
+            <div class="col-9 mb-4">
+              <h4 class="fw-bold ">
+                Chocolate Coffee
+              </h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae.</p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-3 position-relative">
+              <img src="img/menu-3.jpg" alt="" class="rounded-circle hot_coffee mb-5">
+              <h5 class="on_img">$9</h5>
+            </div>
+            <div class="col-9 mb-4">
+              <h4 class="fw-bold ">
+                Coffee With Milk
+              </h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h1 class="ms-3 mt-5 mb-5 fw-bold">Cold Coffee</h1>
+          <div class="row align-items-center">
+            <div class="col-3 position-relative">
+              <img src="img/menu-1.jpg" alt="" class="rounded-circle hot_coffee mb-5">
+              <h5 class="on_img">$5</h5>
+            </div>
+            <div class="col-9 mb-4">
+              <h4 class="fw-bold ">
+                Black Coffee
+              </h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae.</p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-3 position-relative">
+              <img src="img/menu-2.jpg" alt="" class="rounded-circle hot_coffee mb-5">
+              <h5 class="on_img">$7</h5>
+            </div>
+            <div class="col-9 mb-4">
+              <h4 class="fw-bold ">
+                Chocolate Coffee
+              </h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae.</p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-3 position-relative">
+              <img src="img/menu-3.jpg" alt="" class="rounded-circle hot_coffee mb-5">
+              <h5 class="on_img">$9</h5>
+            </div>
+            <div class="col-9 mb-4">
+              <h4 class="fw-bold ">
+                Coffee With Milk
+              </h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae.</p>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Reservation -->
+    <div class="container-fluid" id="reservation">
+      <div class="container">
+        <div class="container-fluid bg-rel">
+          <div class="bg-image"></div>
+        </div>
+        <div class="bg-image3">
+          <div class="empty1"></div>
+          <div class="row pt-5">
+
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center margin-bottom1">
+              <h1 class="margin-top text-success1 fs1 fw-bold mb-3  margin-left index">30% OFF</h1>
+              <h3 class="text-light mb-4 ms-0 margin-left fs-1 index">For Online Reservation</h3>
+              <h4 class="text-light mb-5 ms-5 index">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis blanditiis
+                numquam ratione eum, aliquam velit.</h4>
+              <h5 class="margin-left text-light index" style="font-weight: 700;"><i class="fa fa-check color mr-3"
+                  style="font-weight: bold; margin-right: 0.5rem;"></i>
+                Lorem ipsum dolor sit amet.</h5>
+              <h5 class="margin-left text-light index" style="font-weight: 700;"><i class="fa fa-check color mr-3"
+                  style="font-weight: bold; margin-right: 0.5rem;"></i>
+                Lorem ipsum dolor sit amet.</h5>
+              <h5 class="margin-left text-light index" style="font-weight: 700;"><i class="fa fa-check color mr-3"
+                  style="font-weight: bold; margin-right: 0.5rem;"></i>
+                Lorem ipsum dolor sit amet.</h5>
+            </div>
+
+
+            <div class="col-lg-6 pt-5 ps-5">
+              <h1 class="text-light index">Book Your Table</h1>
+              <div class="form-floating mb-3 me-5">
+                <input type="text" class="form-control w-100 border-success" id="floatingInput"
+                  placeholder="name@example.com">
+                <label for="floatingInput">Name</label>
+              </div>
+              <div class="form-floating mb-3 me-5">
+                <input type="email" class="form-control w-100" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Email</label>
+              </div>
+              <div class="form-floating mb-3 me-5">
+                <input type="datetime-local" class="form-control w-100" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Date</label>
+              </div>
+
+              <div class="form-floating mb-3 me-5">
+                <input type="number" class="form-control w-100" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Number of Person</label>
+              </div>
+              <div style="height: 50px; " class="me-5 index">
+                <input class="btn btn-success w-100 me-5 h-100" type="submit" value="Book Now"
+                  style="letter-spacing: 2px;">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="container-fluid bg-rel">
+          <div class="bg-image1"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Testimonial -->
+    <div id="testimonial">
+      <div class="container-fluid bg-rel pt-3 mb-5">
+        <div class="vertical_line pt-3">
+
+        </div>
+      </div>
+      <h4 class="color text-justify fw-bold text-center" style="letter-spacing: 5px;">Testimonial</h4>
+      <h1 class="serving fw-bold text-center">Our Clients Say</h1>
+
+      <div class="container mt-5">
+        <div class="owl-carousel owl-theme">
+          <div class="item ps-4 pe-3">
+            <div class="d-flex align-items-center">
+              <img src="img/testimonial-1.jpg" alt="" class="img1">
+              <div class="ms-3">
+                <h3>Client Name</h3>
+                <i>Profession</i>
+              </div>
+            </div>
+            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet natus porro
+              deserunt sed aut.</p>
+          </div>
+
+
+          <div class="item ps-4 pe-3">
+            <div class="d-flex align-items-center">
+              <img src="img/testimonial-2.jpg" alt="" class="img1">
+              <div class="ms-3">
+                <h3>Client Name</h3>
+                <i>Profession</i>
+              </div>
+            </div>
+            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet natus porro
+              deserunt sed aut.</p>
+          </div>
+
+          <div class="item ps-4 pe-3">
+            <div class="d-flex align-items-center">
+              <img src="img/testimonial-3.jpg" alt="" class="img1">
+              <div class="ms-3">
+                <h3>Client Name</h3>
+                <i>Profession</i>
+              </div>
+            </div>
+            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet natus porro
+              deserunt sed aut.</p>
+          </div>
+
+          <div class="item ps-4 pe-3">
+            <div class="d-flex align-items-center">
+              <img src="img/testimonial-4.jpg" alt="" class="img1">
+              <div class="ms-3">
+                <h3>Client Name</h3>
+                <i>Profession</i>
+              </div>
+            </div>
+            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet natus porro
+              deserunt sed aut.</p>
+          </div>
+
+          <div class="item ps-4 pe-3">
+            <div class="d-flex align-items-center">
+              <img src="img/testimonial-5.jfif" alt="" class="img1">
+              <div class="ms-3">
+                <h3>Client Name</h3>
+                <i>Profession</i>
+              </div>
+            </div>
+            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet natus porro
+              deserunt sed aut.</p>
+          </div>
+
+          <div class="item ps-4 pe-3">
+            <div class="d-flex align-items-center ">
+              <img src="img/testimonial-6.jfif" alt="" class="img1">
+              <div class="ms-3">
+                <h3>Client Name</h3>
+                <i>Profession</i>
+              </div>
+            </div>
+            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet natus porro
+              deserunt sed aut.</p>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container-fluid bg-rel pt-3 mb-5">
+        <div class="vertical_line pt-3">
+
+        </div>
+      </div>
+      <h4 class="color text-justify fw-bold text-center" style="letter-spacing: 5px;">CONTACT US</h4>
+      <h1 class="serving fw-bold text-center">Feel Free to Contact</h1>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 text-center mt-5">
+            <i class="fa fa-2x fa-map-marker-alt mb-3 text-success1 "></i>
+            <h4>Address</h4>
+            <p>123 Street, New York, USA</p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <i class="fa fa-2x fa-phone-alt mb-3 text-success1"></i>
+            <h4>Phone</h4>
+            <p>+012 345 6789</p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <i class="fa fa-2x fa-envelope mb-3 text-success1 "></i>
+            <h4>Email</h4>
+            <p>info@example.com</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 mt-3">
+            <!--Google map-->
+            <div id="map-container-google-1" class="ms-3 z-depth-1-half map-container" style="height: 500px">
+              <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <!--Google Maps-->
+          </div>
+          <div class="col-lg-6 mt-3">
+
+            <div class="form-floating mb-3 me-3">
+              <input type="text" class="form-control w-100 " id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput"> Your Name</label>
+            </div>
+            <div class="form-floating mb-3 me-3">
+              <input type="email" class="form-control w-100" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Your Email</label>
+            </div>
+            <div class="form-floating mb-3 me-3">
+              <input type="text" class="form-control w-100" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Subject</label>
+            </div>
+
+            <div class=" mb-3 me-3">
+              <textarea class="form-control w-100" name="" id="" cols="85" rows="7">Message</textarea>
+            </div>
+            <div style="height: 50px; " class="me-5">
+              <input class="btn btn-success w-50 me-5 h-100" type="submit" value="Send Message"
+                style="letter-spacing: 2px;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid bg-rel">
+        <div class="bg-image"></div>
+      </div>
+      <div class="container-fluid bg-image2">
+        <div class="empty"></div>
+        <div>
+          <div class="row width">
+            <div class="col-lg-3 col-md-6 text-light mt-5 pt-5">
+              <h4 class="ms-5">GET IN TOUCH</h4>
+              <h6 class="ms-5 mt-3"><i class="fa  fa-map-marker-alt me-2"></i> 123 Street, New York, USA</h6>
+              <h6 class="ms-5 mt-3"><i class="fa  fa-phone-alt me-2 "></i>+012 345 6789</h6>
+              <h6 class="ms-5 mt-3">
+                <i class="fa  fa-envelope me-2"></i>info@example.com
+              </h6>
+            </div>
+
+            <div class="col-lg-3 col-md-6  text-light mt-5 pt-5">
+              <h4 class="ms-3">FOLLOW US</h4>
+              <h6 class="ms-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, beatae.</h6>
+              <div class="ms-3 mt-3">
+                <a href="" class="btn btn-lg btn-outline-light btn-lg-square mr-2"><i class="fab fa-twitter"></i></a>
+                <a href="" class="btn btn-lg btn-outline-light btn-lg-square mr-2"><i class="fab fa-facebook"></i></a>
+                <a href="" class="btn btn-lg btn-outline-light btn-lg-square mr-2"><i
+                    class="fab fa-linkedin-in"></i></a>
+                <a href="" class="btn btn-lg btn-outline-light btn-lg-square mr-2"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6  text-light mt-5 pt-5 ">
+              <h4 class="ms-5">OPEN HOURS</h4>
+              <div class="mt-3 ms-5">
+                <h6>MONDAY - FRIDAY</h6>
+                <h6>8.00 AM - 8.00 PM</h6>
+              </div>
+              <div class="mt-3 ms-5">
+                <h6>SATURDAY - SUNDAY</h6>
+                <h6>2.00 PM - 8.00 PM</h6>
+              </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6  text-light mt-5 pt-5 pe-5 ">
+              <h4 class="ms-3">NEWSLETTER</h4>
+              <p class="mt-3 ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ipsam!</p>
+              <div class="input-group ms-3">
+                <input type="email" class="form-control p-3" placeholder="Your Email" aria-label="Recipient's username"
+                  aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-success1" type="button">Button</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="container-fluid text-center text-white border-top margin-top1 py-4 px-sm-3 px-md-5"
+            style="border-color: rgba(256, 256, 256, .1) !important;">
+            <p class="mb-2 text-white">Copyright © <a class="font-weight-bold color text-decoration-none"
+                href="#">Domain</a>. All Rights Reserved.</p>
+            <p class="m-0 text-white">Designed by <a class="font-weight-bold color text-decoration-none" href="#">Murad
+                Karimov</a></p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Animation -->
+      <a href="#intro" class="fixed">
+        <i class="fa fa-angle-double-up btn-success1 d-flex align-items-center justify-content-center "></i>
+      </a>
+
+
+
+      <script src="js/index.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 3
+            },
+            1000: {
+              items: 3
+            }
+          }
+        })
+      </script>
+</body>
+
+</html>
