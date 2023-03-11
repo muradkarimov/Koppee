@@ -41,13 +41,13 @@ html {
 .empty{
     background-color: rgba(51,33, 29, 0.9) !important;
     width: 100%;
-    height: 80vh;
+    height: 100%;
     position: absolute;
 }
 .empty1{
     background-color: rgba(51,33, 29, 0.9) !important;
-    width: 73.4%;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: absolute;
 }
 .text-white{
@@ -187,6 +187,7 @@ z-index: 1 !important;
 .offer{
     background-color: #fffbf2;
     margin-top: -70px;
+    position: relative;
 }
 .bg-image{
     position: absolute;
@@ -208,6 +209,7 @@ z-index: 1 !important;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     /* height: 500px; */
 }
 .bg-image4{
@@ -283,6 +285,8 @@ z-index: 1 !important;
 .bg-image3{
     background-image: url("../img/bg.jpg");
     width: 100%;
+    position: relative;
+    padding-bottom: 30px;
 }
 .margin-bottom1{
     padding-bottom: 80px;
